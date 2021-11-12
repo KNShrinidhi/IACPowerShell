@@ -19,5 +19,5 @@ New-AzVM `
   -SubnetName "mysubnet" `
   -SecurityGroupName "myNSG" `
   -PublicIpAddressName "mypublicIP" `
-  -Credential $cred
+  -Credential $cred `
   -OpenPorts 3389
