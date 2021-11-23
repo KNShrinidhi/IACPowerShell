@@ -14,5 +14,5 @@ steps:
   inputs:
     azureSubscription: 'VSSubscription'
     ScriptType: 'FilePath'
-    ScriptPath: '\VM\Detailed-Windows-VM.ps1'
+    ScriptPath: '$(System.DefaultWorkingDirectory)\VM\Detailed-Windows-VM.ps1'
     azurePowerShellVersion: 'LatestVersion'
